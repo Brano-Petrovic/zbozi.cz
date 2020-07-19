@@ -1,0 +1,60 @@
+body {
+    width: 70%;
+    margin: auto;
+    margin-top: 4rem;
+    background-image: linear-gradient(to right, rgb(183, 220, 255) , rgb(251, 253, 255));
+}
+
+#div_search{
+    text-align: center;
+}
+
+#input_search{
+    width: 50%;
+    display: inline-block;
+    border: 3px solid rgb(225, 225, 225);
+    vertical-align: middle;
+}
+
+#button_search{
+    width: 25%;
+    min-width: 70px;
+    margin-left: 2%;
+}
+
+#div_all_results{
+    text-align: center;
+}
+
+.product_div {
+    display: inline-block;
+    width: 250px;
+    margin: 1%;
+    border: 1px solid black;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 7px 6px 8px 0px rgba(0,0,0,0.75);
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: 0.2s;
+}
+
+.product_div:hover{
+    top: -5px;
+    left: -5px;
+}
+
+.product_div p {
+    margin-bottom: 0;
+}
+
+img {
+    width: 90%;
+    height: auto;
+}
+
+.nazov{
+    font-weight: bold;
+}
