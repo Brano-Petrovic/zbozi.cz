@@ -1,0 +1,2 @@
+# zbozi.cz
+Testovacia uloha
