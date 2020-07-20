@@ -10,10 +10,11 @@ body {
 }
 
 #input_search{
-    width: 50%;
+    width: 100%;
     display: inline-block;
     border: 3px solid rgb(225, 225, 225);
     vertical-align: middle;
+    margin-bottom: 30px;
 }
 
 #button_search{
@@ -24,12 +25,15 @@ body {
 
 #div_all_results{
     text-align: center;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
 }
 
 .product_div {
     display: inline-block;
     width: 250px;
-    margin: 1%;
+    margin: 10px;
     border: 1px solid black;
     padding: 2%;
     border-radius: 10px;
@@ -48,13 +52,11 @@ body {
 
 .product_div p {
     margin-bottom: 0;
+    text-align: left;
 }
 
-img {
-    width: 90%;
+.product_div img {
     height: auto;
-}
-
-.nazov{
-    font-weight: bold;
+    width: auto;
+    max-height: 200px;
 }

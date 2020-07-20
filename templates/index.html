@@ -10,15 +10,28 @@
         integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk' crossorigin='anonymous'>
     <link rel='stylesheet' href='../css/main.css'>
     <link rel="stylesheet" href="../css/modal.css">
+    <link rel="stylesheet" href="../css/menu.css">
 </head>
 
 <body>
     <div id="div_search">
-        <input id='input_search' type='text' class='form-control' placeholder='Zadajte hľadaný výraz...'>
-        <!-- <button id='button_search' class='btn btn-secondary'>Search</button> -->
+        <input id='input_search' type='text' class='form-control' placeholder='Zadajte hľadaný nazov, OS...'>
+    </div>
+    <span id="button_menu">&#9776;</span>
+    <div id="nav" class="overlay">
+        <div id="nav_content" class="overlay-content">
+            <a class="btn btn-primary StyleButtons">Mobily</a><br>
+            <a class="btn btn-primary StyleButtons">Počítače</a><br>
+            <a class="btn btn-primary StyleButtons">Tablety</a><br>
+            <a class="btn btn-primary StyleButtons">Tlačiarne</a><br>
+            <a class="btn btn-primary StyleButtons">Reproduktory</a><br>
+            <a class="btn btn-primary StyleButtons">Routere</a><br>
+            <a class="btn btn-primary StyleButtons">Klavesnice</a><br>
+            <a class="btn btn-primary StyleButtons">Myši</a>
+        </div>
     </div>
 
-    <hr>
+
 
     <div id="div_all_results">
 
@@ -26,10 +39,6 @@
 
     <hr>
 
-    <!-- <div id="footer">
-        Autor: Branislav Petrovic
-
-    </div> -->
     <!-- The Modal -->
     <div id="myModal" class="modal">
 
