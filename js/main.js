@@ -62,7 +62,7 @@ function openNav() {
 }
 
 function responsive_menu() {
-    if (document.documentElement.clientWidth > 1200) {
+    if (document.documentElement.clientWidth > 750) {
         document.getElementById('button_menu').hidden = true
         document.getElementById('nav').removeAttribute('class')
         document.getElementById('nav').style.height = '0px'

@@ -67,3 +67,10 @@ a:not([href]):not([tabindex]){
 	right: 35px;
 	}
 }
+
+@media screen and (max-width: 650px) {
+	.modal img {
+		width: 90%;
+		height: auto;
+	}
+}
